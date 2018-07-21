@@ -20,7 +20,7 @@ h1{
 	width: 200px;
 	height: 200px;
 	border-radius: 50%;
-	margin-left: 30%;
+	margin-left: 20%;
 }
 
 #bio-text{
@@ -87,7 +87,8 @@ img{
 /*	border: 5px solid black;*/
 /*	width: 100vh;*/
 	margin: auto;
-
+	margin-top: 2.5%;
+	font-size: 1.5em;
 }
 
 .icon-container a{
@@ -105,6 +106,7 @@ img{
 
 #contact-intro{
 	text-align: center;
+	margin-bottom: 3%;
 }
 
 h3{
