@@ -1,43 +1,137 @@
-body {
-    margin: 60px auto;
-    width: 70%;
-}
-nav ul, footer ul {
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    padding: 0px;
-    list-style: none;
-    font-weight: bold;
-}
-nav ul li, footer ul li {
-    display: inline;
-    margin-right: 20px;
-}
-a {
-    text-decoration: none;
-    color: #999;
-}
-a:hover {
-    text-decoration: underline;
-}
-h1 {
-    font-size: 3em;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
-}
-p {
-    font-size: 1.5em;
-    line-height: 1.4em;
-    color: #333;
-}
-footer {
-    border-top: 1px solid #d5d5d5;
-    font-size: .8em;
+/*MAIN JUMBOTRON*/
+#intro-text{
+	text-align: center;
+	background-image: 
+	url(https://images.unsplash.com/photo-1531948240083-6a7582ab0c93?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=c7a5acb45023bd0eaf208fdcb9d4ebcb&auto=format&fit=crop&w=1934&q=80);
+	margin-top: 3%;
+	height: 35vh;
 }
 
-ul.posts { 
-    margin: 20px auto 40px; 
-    font-size: 1.5em;
+#intro-text p{
+	color: white;
 }
 
-ul.posts li {
-    list-style: none;
+h1{
+	padding-top: 1em;
+	font-size: 2em;
 }
+/*ABOUT SECTION STYLING*/
+#profile-pic{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	margin-left: 30%;
+}
+
+#bio-text{
+	margin-top: 5%;
+}
+
+.welcome{
+	margin-bottom: 5%;
+}
+
+/*GLOBAL DIVIDER*/
+.divider{
+	margin: 5rem 0;
+}
+
+
+h2{
+	text-align: center;
+}
+
+#about{ /*takes care of the space in between the li's*/
+	padding: 1.5em;
+}
+
+/*SERVICE SECTION STYLING*/
+.services-text{
+	margin-bottom: 5%;
+}
+
+h4{
+	text-align: center;
+	margin-bottom: 5%;
+}
+
+
+/*GALLERY STYLING*/
+.gallery-container{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+img{
+	width: 300px;
+	height: 100%;
+	margin-bottom: 3%;
+}
+
+/*CONTACT STYLING*/
+.contact-divide{
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+
+#main-contact{
+	height: 35vh;
+	margin-bottom: .1em;
+}
+
+.icon-container{
+	text-align: center;
+	display: flex;
+	justify-content: center;
+/*	border: 5px solid black;*/
+/*	width: 100vh;*/
+	margin: auto;
+
+}
+
+.icon-container a{
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+.icon-container i{
+	font-size: 2em;
+}
+
+.contact-text{
+	margin-bottom: 1%;
+}
+
+#contact-intro{
+	text-align: center;
+}
+
+h3{
+	text-align: center;
+	margin-bottom: 5%;
+}
+
+/*FOOTER STYLING*/
+footer{
+  text-align: center;
+  background: black;
+  color: white;
+  font-family: 'Abel', sans-serif;
+}
+
+footer p{
+  padding: .5em;
+  margin: 0;
+}
+
+
+/*CHANGE TO MEDIA QUERY*/
+
+@media (min-width: 576px){
+	.jumbotron {
+    padding: 1rem 2rem;
+	}
+
+}
+
